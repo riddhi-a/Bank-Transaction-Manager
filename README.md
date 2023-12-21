@@ -1,6 +1,6 @@
 # Bank-Transaction-Manager
-The bank maintains a set of accounts.Each transaction specifies either a deposit (AccountNo D y) or a withdrawal (AccountNo W x). //
-“Cursor” denotes the most recent transaction processed. The cursor can be moved forward to process the specified next number of transactions. The cursor can be moved backward to reverse the specified next number of transactions. \\
+The bank maintains a set of accounts.Each transaction specifies either a deposit (AccountNo D y) or a withdrawal (AccountNo W x). \
+“Cursor” denotes the most recent transaction processed. The cursor can be moved forward to process the specified next number of transactions. The cursor can be moved backward to reverse the specified next number of transactions. \
 • processF - Processes the next X transactions after the cursor. //
 • processR - Undo Y transactions starting from the cursor. //
 • processI (I T K) - Insert a new Transaction T immediately after the Kth transaction in the list.If inserting before cursor position, then processes this new transaction as well. //
